@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marathon</title>
+  </head>
+  <body>
+    <h1>Race Registeration!</h1>
+    <form action="/marathon">
+      <div>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" required />
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" required />
+      </div>
+      <p>Select a Race:</p>
+      <div>
+        <div>
+          <input
+            type="radio"
+            name="racetype"
+            id="funrun5k"
+            value="funrun5k"
+            required
+          />
+          <label for="funrun5k">Fun Run 5k</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="racetype"
+            id="halfmarathon"
+            value="halfmarathon"
+            required
+          />
+          <label for="halfmarathon">Half Marathon</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="racetype"
+            id="fullmarathon"
+            value="fullmarathon"
+            required
+          />
+          <label for="fullmarathon">Full Marathon</label>
+        </div>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div>
+        <label for="selectage">Select Age Group</label>
+        <select name="selectage" id="selectage" required>
+          <option value="under-18" selected>under 18</option>
+          <option value="18-30">18-30</option>
+          <option value="30-50">30-50</option>
+          <option value="50+">50+</option>
+        </select>
+      </div>
+      <button>Register!</button>
+    </form>
+  </body>
+</html>
