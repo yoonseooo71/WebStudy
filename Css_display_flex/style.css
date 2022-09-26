@@ -1,0 +1,37 @@
+.container  {
+  width: 80%;
+  height: 1000px;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 20px;
+  border:1em black solid;
+  border-radius: 5em;
+}
+.container :nth-of-type(1) section{
+  display: flex;
+  flex-direction: row;
+}
+.container :nth-of-type(2) section{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container :nth-of-type(3) section{
+  display: flex;
+  flex-direction: column;
+}
+.container :nth-of-type(4) section{
+  display: flex;
+  flex-direction: column-reverse;
+}
+div {
+  width: 50px;
+  height: 50px;
+}
+h2 {
+  color: white;
+}
+.container > section {
+  padding: 10px;
+  border: 0.2em  white solid;
+  border-radius: 1em;
+}

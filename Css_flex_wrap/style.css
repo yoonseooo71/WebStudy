@@ -1,0 +1,31 @@
+.container  {
+  width: 50%;
+  height: 600px;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 20px;
+  border:1em black solid;
+  border-radius: 5em;
+}
+.container > section section{
+  display: flex;
+  flex-direction: row;
+}
+.container :nth-of-type(1) section{
+  flex-wrap: wrap;
+}
+.container :nth-of-type(2) section{
+  flex-wrap: wrap-reverse;
+}
+div {
+  width: 200px;
+  height: 100px;
+}
+h2 {
+  color: white;
+}
+.container > section {
+  padding: 10px;
+  border: 0.2em  white solid;
+  border-radius: 1em;
+}
