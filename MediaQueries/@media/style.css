@@ -1,0 +1,37 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 {
+  color: blueviolet;
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width:950px) { /*왼쪽에서부터 950px까지 */
+  body {
+    background-color: #80ed99;
+  }
+}
+@media (max-width:800px) { /*왼쪽에서부터 800px까지 */
+  body {
+    background-color: #57cc99;
+  }
+}
+@media (max-width:650px) and (min-width:500px) { /*왼쪽에서부터 650px까지 그리고 오른쪽에서부터 500px까지 즉  500 < x <=650*/
+  body {
+    background-color: #38a3a5;
+  }
+}
+@media (max-width:500px) {
+  body {
+    background-color: #22577a;
+  }
+}
+@media (min-width:950px) {  /*오른쪽에서부터 950px까지 */
+  body {
+    background-color: #c7f9cc;
+  }
+}
