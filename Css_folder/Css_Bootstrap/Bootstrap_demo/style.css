@@ -1,0 +1,4 @@
+.btn-group:hover .btn{/*  크롬 개발자 모드에서 찾아서 크기 늘려봄 */
+  --bs-btn-padding-x: 2rem;
+  --bs-btn-padding-y: 1rem;
+}
