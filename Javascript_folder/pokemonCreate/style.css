@@ -1,0 +1,31 @@
+#create-btn {
+  width: 150px;
+  height: 50px;
+  background-color: #a8dadc;
+  color: #e63946;
+  font-size: 18px ;
+  font-weight: bold;
+  border : 3px solid #1d3557; 
+  border-radius: 10px;  
+  box-sizing: border-box;
+  margin-bottom: 10px; 
+}
+#create-btn:hover {
+  background-color: #a8dadc80;
+  border: 3px solid #457b9d;
+}
+#container {
+  border-top: 5px solid gray;
+  padding-top: 20px;
+}
+.pokemon {
+  display: inline-block;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 2px; 
+}
+.pokemon img {
+  display: block;
+  border-bottom: 2px dotted black;
+}
