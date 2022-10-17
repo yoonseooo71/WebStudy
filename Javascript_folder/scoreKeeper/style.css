@@ -1,0 +1,16 @@
+.winner {
+  color : greenyellow ;
+}
+.loser {
+  color: red;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+#maxScore {
+  width: 50%;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
